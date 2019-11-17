@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "startdev": "webpack-dev-server --mode=development",
-    "start": "node server/index.js",
-    "build": "rimraf dist && mkdir dist && webpack --mode=production"
+    "start": "rimraf dist && mkdir dist && webpack --mode=production && node server/index.js"
   },
   "repository": {
     "type": "git",
